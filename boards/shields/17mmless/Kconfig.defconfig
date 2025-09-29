@@ -1,0 +1,14 @@
+
+if SHIELD_17MMLESS_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "17mmless"
+
+endif
+
+if SHIELD_17MMLESS_LEFT || SHIELD_17MMLESS_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

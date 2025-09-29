@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: 17mmless
+name: 17mmless
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - 17mmless_left
+  - 17mmless_right

@@ -1,0 +1,4 @@
+config SHIELD_17MMLESS_LEFT
+    def_bool $(shields_list_contains,17mmless_left)
+config SHIELD_17MMLESS_RIGHT
+    def_bool $(shields_list_contains,17mmless_right)
